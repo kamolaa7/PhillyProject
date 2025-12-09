@@ -23,9 +23,6 @@ nav a {
     transition: color 0.3s;
     }
 
-nav a:hover {
-    color: #000;color: #666;
-    }
 
 /* Header */
 h1 {
@@ -62,11 +59,6 @@ h1 {
     border: 2px solid #ddd;
     transition: transform 0.3s, box-shadow 0.3s;*/
 
-
-.shopping-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
 
 .card-content {
     display: grid;
