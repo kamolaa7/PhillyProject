@@ -1,0 +1,118 @@
+/* Page base */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* Light gray strip behind main content */
+.main-wrapper {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+/* Top navigation bar */
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  padding: 18px 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e1e0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.site-nav a:hover {
+  color: #006699;
+}
+
+/* Page logo / title */
+.page-hero {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #ffffff;
+}
+
+.page-hero-title {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #07294D;
+}
+
+.page-hero-title span {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 14px;
+  background-color: #ffeef5;   /* soft pink accent */
+}
+
+.page-hero-subtitle {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666666;
+}
+
+/* Card section (your food spots) */
+.food-section {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.card-deck .card {
+  border-radius: 18px;
+  border: 1px solid #e1e1e0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+/* Images on cards */
+.card-img-top {
+  height: 210px;
+  object-fit: cover;
+}
+
+/* Card text styles */
+.card-body {
+  padding: 20px 22px 22px;
+}
+
+.card-title {
+  font-family: "Georgia", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #07294D;
+}
+
+.card-subtitle {
+  font-size: 13px;
+  color: #888888;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333333;
+}
+
+/* Links (like phone or map links) */
+a {
+  color: #006699;
+}
+
+a:hover {
+  color: #07294D;
+  text-decoration: underline;
+}
