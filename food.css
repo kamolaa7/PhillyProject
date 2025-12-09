@@ -6,9 +6,8 @@ body {
   color: #222222;
 }
 
-/* Top navigation bar (matches entertainment page) */
 nav {
-  background-color: #ffffff;
+  background-color: white;
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -33,97 +32,53 @@ nav a:hover {
   color: #666;
 }
 
-/* Page hero / title */
-.page-hero {
-  text-align: center;
-  padding: 30px 20px 10px;
-  background-color: transparent;
-}
+ h1 {
+      text-align: center;
+      margin: 30px 0;
+    }
 
-.page-hero-title {
-  font-family: "Georgia", "Times New Roman", serif;
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 1px;
-  color: #07294D;
-}
+    .spots {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap; /* keeps them side by side */
+    }
 
-.page-hero-title span {
-  display: inline-block;
-  padding: 6px 14px;
-  border-radius: 14px;
-  background-color: #ffeef5;
-}
+    .spot {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 23%; /* four fit across */
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-.page-hero-subtitle {
-  margin-top: 8px;
-  font-size: 16px;
-  color: #666666;
-}
+    .spot img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
 
-/* Main content wrapper */
-.main-wrapper {
-  padding: 20px 0 40px;
-}
+    .spot h2 {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 5px 0;
+    }
 
-/* Make your Bootstrap card deck look like the entertainment cards */
-.food-section {
-  max-width: 1100px;
-  margin: 0 auto;
-}
+    .location {
+      font-size: 0.85em;
+      color: #555;
+      margin-bottom: 8px;
+    }
 
-/* Space out the cards a bit */
-.card-deck {
-  gap: 20px;
-}
+    .description {
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
 
-/* Card appearance similar to .attraction */
-.card-deck .card {
-  border-radius: 8px;
-  border: 1px solid #dddddd;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
-
-/* Images on cards */
-.card-img-top {
-  width: 100%;
-  height: 210px;
-  object-fit: cover;
-  border-radius: 0;
-}
-
-/* Card text styles */
-.card-body {
-  padding: 15px;
-  text-align: center;
-}
-
-.card-title {
-  font-size: 1.1em;
-  font-weight: bold;
-  color: #07294D;
-  margin-bottom: 5px;
-}
-
-.card-subtitle {
-  font-size: 0.85em;
-  color: #555555;
-  margin-bottom: 8px;
-}
-
-.card-text {
-  font-size: 0.9em;
-  line-height: 1.4;
-  color: #333333;
-}
-
-/* Links (phone, etc.) */
-a {
-  color: #006699;
-}
-
-a:hover {
-  color: #07294D;
-  text-decoration: underline;
-}
+    .details {
+      font-size: 0.8em;
+      color: #333;
+      font-style: italic;
+    }
