@@ -61,7 +61,7 @@ nav a:hover {
 .button-container {
     margin-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 25px;
 }
