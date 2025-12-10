@@ -53,6 +53,8 @@ nav a:hover {
 
     .spot img {
       width: 100%;
+      height: 380px;     /* same height for every image */
+      object-fit: cover; /* fills the box and crops evenly */
       border-radius: 6px;
       margin-bottom: 10px;
     }
@@ -85,14 +87,4 @@ nav a.active {
   border-bottom: 2px solid #000;
 }
 
-/* Make Buddakan and El Vez images taller */
-.spot.tall-image img {
-  height: 420px;      /* adjust if needed */
-  object-fit: cover;
-}
 
-/* Make Almyra Restaurant image smaller */
-.spot.small-image img {
-  height: 420px;      /* adjust if needed */
-  object-fit: cover;
-}
