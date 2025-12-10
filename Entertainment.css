@@ -73,4 +73,9 @@
       font-size: 0.8em;
       color: #333;
       font-style: italic;
+
+    /*Ensures tranformation in js shows */
+    }
+    .entertainment-img {
+      display: inline-block;
     }
