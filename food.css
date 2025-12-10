@@ -89,6 +89,6 @@ nav a.active {
 
 /* Make Buddakan and El Vez images taller */
 .spot.tall-image img {
-  height: 380px;      /* adjust if needed */
+  height: 400px;      /* adjust if needed */
   object-fit: cover;
 }
