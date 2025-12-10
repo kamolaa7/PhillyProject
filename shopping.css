@@ -34,12 +34,9 @@ h1 {
 
 /* Shopping Container */
 .shopping-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .shopping-card {
@@ -47,7 +44,6 @@ h1 {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width:23%;
     padding:15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
