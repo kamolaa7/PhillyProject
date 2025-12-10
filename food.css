@@ -80,3 +80,13 @@ nav a:hover {
       color: #333;
       font-style: italic;
     }
+/* Optional active-link style for JS */
+nav a.active {
+  border-bottom: 2px solid #000;
+}
+
+/* Make Buddakan and El Vez images taller */
+.spot.tall-image img {
+  height: 400px;      /* adjust if needed */
+  object-fit: cover;
+}
