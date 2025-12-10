@@ -90,3 +90,9 @@ nav a.active {
   height: 420px;      /* adjust if needed */
   object-fit: cover;
 }
+
+/* Make Almyra Restaurant image smaller */
+.spot.small-image img {
+  height: 420px;      /* adjust if needed */
+  object-fit: cover;
+}
