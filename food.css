@@ -1,118 +1,84 @@
 /* Page base */
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #ffffff;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
   color: #222222;
 }
 
-/* Light gray strip behind main content */
-.main-wrapper {
-  background-color: #f5f5f5;
-  padding: 40px 0;
+nav {
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Top navigation bar */
-.site-nav {
+nav ul {
+  list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 32px;
-  padding: 18px 60px;
-  background-color: #ffffff;
-  border-bottom: 1px solid #e1e1e0;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  gap: 2rem;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
 }
 
-.site-nav a {
+nav a {
+  color: black;
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: #333333;
+  font-size: 1.1rem;
+  transition: color 0.3s;
 }
 
-.site-nav a:hover {
-  color: #006699;
+nav a:hover {
+  color: #666;
 }
 
-/* Page logo / title */
-.page-hero {
-  text-align: center;
-  padding: 40px 20px 20px;
-  background-color: #ffffff;
-}
+ h1 {
+      text-align: center;
+      margin: 30px 0;
+    }
 
-.page-hero-title {
-  font-family: "Georgia", "Times New Roman", serif;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 1px;
-  color: #07294D;
-}
+    .spots {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap; /* keeps them side by side */
+    }
 
-.page-hero-title span {
-  display: inline-block;
-  padding: 6px 14px;
-  border-radius: 14px;
-  background-color: #ffeef5;   /* soft pink accent */
-}
+    .spot {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 23%; /* four fit across */
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-.page-hero-subtitle {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #666666;
-}
+    .spot img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
 
-/* Card section (your food spots) */
-.food-section {
-  max-width: 1100px;
-  margin: 0 auto 40px;
-  padding: 0 20px;
-}
+    .spot h2 {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 5px 0;
+    }
 
-.card-deck .card {
-  border-radius: 18px;
-  border: 1px solid #e1e1e0;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
-  overflow: hidden;
-}
+    .location {
+      font-size: 0.85em;
+      color: #555;
+      margin-bottom: 8px;
+    }
 
-/* Images on cards */
-.card-img-top {
-  height: 210px;
-  object-fit: cover;
-}
+    .description {
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
 
-/* Card text styles */
-.card-body {
-  padding: 20px 22px 22px;
-}
-
-.card-title {
-  font-family: "Georgia", serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: #07294D;
-}
-
-.card-subtitle {
-  font-size: 13px;
-  color: #888888;
-}
-
-.card-text {
-  font-size: 14px;
-  color: #333333;
-}
-
-/* Links (like phone or map links) */
-a {
-  color: #006699;
-}
-
-a:hover {
-  color: #07294D;
-  text-decoration: underline;
-}
+    .details {
+      font-size: 0.8em;
+      color: #333;
+      font-style: italic;
+    }
